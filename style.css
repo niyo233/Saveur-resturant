@@ -7,6 +7,7 @@
 body {
   font-family: "poppins", sans-serif;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -16,4 +17,8 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+}
+
+.logo {
+  font-family: "Pacifico";
 }
