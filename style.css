@@ -394,3 +394,80 @@ select {
   font-weight: 500;
 }
 /* Location & Contact Section End */
+
+/* Footer */
+
+.footer-section {
+  padding: 3rem 2rem;
+  background: #111827;
+  color: var(--background-color--);
+}
+
+.footer-container {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-items {
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+}
+
+.footer-items h4 {
+  font-size: 1.3rem;
+}
+
+.footer-items input {
+  border: 2px solid #ccc;
+  width: 63%;
+  height: 42px;
+  border-radius: 8px;
+  padding-left: 7px;
+  outline: none;
+}
+
+.footer-items button {
+  padding: 1rem;
+  font-weight: 600;
+  background: var(--accent-color--);
+  color: var(--primary-color--);
+  border-radius: 8px;
+  border: 0;
+}
+
+.footer-items ul {
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+}
+
+.footer-items h4 {
+  color: var(--background-color--);
+}
+
+.footer-container a {
+  color: var(--primary-color--);
+}
+
+.lastber {
+  border-top: 1px solid #ccc;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.lastnav {
+  display: flex;
+  gap: 1rem;
+}
+
+.lastnav a {
+  color: var(--primary-color--);
+}
+
+/* Footer End */
