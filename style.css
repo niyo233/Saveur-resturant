@@ -112,12 +112,20 @@ header {
   margin-bottom: 1rem;
 }
 
-.hero-btn a {
+.hero-btn .first {
   margin: 0.5rem;
   padding: 1rem 2rem;
   font-weight: 500;
   background: var(--accent-color--);
   color: var(--primary-color--);
+  border-radius: 8px;
+}
+
+.hero-btn .last {
+  padding: 1rem 2rem;
+  font-weight: 500;
+  background: var(--primary-color--);
+  color: var(--accent-color--);
   border-radius: 8px;
 }
 
