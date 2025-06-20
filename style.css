@@ -331,3 +331,66 @@ select {
   border: 0;
 }
 /* Reservation Widget Section End */
+
+/* Location & Contact Section */
+.location-contact-section {
+  padding: 3rem 2rem;
+  background: var(--background-color--);
+}
+
+.location-contact-container {
+  padding: 2rem;
+}
+
+.location-contact-topber {
+  text-align: center;
+  padding: 2rem;
+}
+
+.location-contact-topber h2 {
+  font-size: 2rem;
+}
+
+.location-contact-items {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.map img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.contact-details {
+  padding: 1.5rem;
+  background: var(--primary-color--);
+  border-radius: 12px;
+}
+
+.contact-details h3 {
+  font-size: 1.5rem;
+}
+
+.contact-details .wrap {
+  display: flex;
+  gap: 1rem;
+  padding: 0.8rem;
+}
+
+.contact-details .head {
+  font-weight: 600;
+}
+
+.working-day div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.working-day .bold {
+  font-weight: 500;
+}
+/* Location & Contact Section End */
