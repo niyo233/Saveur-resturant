@@ -317,7 +317,7 @@ select {
 .input-text textarea {
   border: 2px solid #ccc;
   border-radius: 8px;
-  padding-left: 7px;
+  padding: 7px;
   height: 100px;
   outline: none;
 }
