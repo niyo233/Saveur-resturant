@@ -75,6 +75,34 @@ header {
 .header-container button {
   display: none;
 }
+
+.menu-bers {
+  display: none;
+  cursor: pointer;
+}
+
+.responsive-menu {
+  padding-top: 25px;
+  position: absolute;
+  background: var(--accent-color--);
+  height: 100vh;
+  width: 300px;
+  top: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  display: none;
+}
+
+.responsive-menu nav {
+  padding-top: 25px;
+}
+
+.close-menu {
+  text-align: end;
+  cursor: pointer;
+}
+
 /* Header Section End */
 
 /* Hero Section */
@@ -615,6 +643,9 @@ select {
 
   .header-container ul {
     display: none;
+  }
+  .menu-bers {
+    display: block;
   }
 
   /* .header-container ul {
